@@ -4,6 +4,9 @@
 This project models and controls a ball and beam system using Simscape Multibody in MATLAB. The system consists of a ball rolling on a beam, which is tilted by a servo motor through a lever arm. The goal is to control the ball's position on the beam using a lead compensator controller, ensuring the system meets specific design criteria: settling time less than 3 seconds and overshoot less than 5%.
 
 
+<img src="https://github.com/user-attachments/assets/fe596555-051d-4647-8654-8a00e9ca7ea6">
+
+
 ---
 
 ## System Description
@@ -50,6 +53,8 @@ The physical system consists of the following components:
 5. **Controller Implementation**:
    - Design a lead compensator to control the ball's position.
    - Close the loop by feeding the ball's position back to the controller.
+  
+     <img src="https://github.com/user-attachments/assets/3abc3cbb-0437-4775-8a1e-d0e89f0a1eed">
 
 ---
 
@@ -58,6 +63,8 @@ The physical system consists of the following components:
   - Settling time: Less than 3 seconds.
   - Overshoot: Less than 5%.
 - The ball's position is controlled accurately, and the system responds smoothly to step inputs.
+
+   <img src="https://github.com/user-attachments/assets/5af62883-db0f-418f-862a-1f1eaf1d6c04">
 
 ---
 
